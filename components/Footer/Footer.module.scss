@@ -1,0 +1,87 @@
+@font-face {
+    font-family: 'trenda';
+    src: url('../../public/trenda.otf');
+}
+
+.footer {
+    width: 100%;
+    font-family: 'Trenda';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.itemPositioning {
+    display: flex;
+    width: 100%;
+    text-align: end;
+
+    @media (max-width: 769px) {
+        display: grid;
+        width: 100%;
+        height: 25px;
+        text-align: center;
+        justify-content: center;
+        margin-bottom: 150px;
+        margin-top: 20px;
+    }
+}
+
+.leftItems {
+    width: 70%;
+    display: flex;
+
+    @media (max-width: 769px) {
+        display: grid;
+        ;
+        width: auto;
+    }
+}
+
+.copyright {
+    width: 30%;
+    color: #FFFFFF;
+    margin-bottom: 40px;
+    margin-top: 150px;
+    margin-right: 40px;
+
+    @media (max-width: 769px) {
+        padding-top: 20px;
+        margin: 0;
+        text-align: center;
+        font-size: 22px;
+        width: auto;
+    }
+}
+
+.discord-icon-positioning {
+    margin-top: 150px;
+    margin-left: 15px;
+    cursor: pointer;
+
+    @media (max-width: 769px) {
+        margin: 10px 0px 30px 0px;
+    }
+}
+
+.twitter-icon-positioning {
+    margin-top: 150px;
+    margin-left: 10px;
+    cursor: pointer;
+
+    @media (max-width: 769px) {
+        margin: 10px 0px 30px 10px;
+    }
+}
+
+.paragraph {
+    width: 325px;
+    margin-top: 150px;
+    margin-left: 20px;
+    justify-content: center;
+
+    @media (max-width: 769px) {
+        margin: 0px 0px 0px 0px;
+    }
+}
